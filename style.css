@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #dadada;
+}
+
+.container {
+    border-radius: 20px;
+    display:flex;
+    background-color: #aaaaaa;
+}
+
+.sidebar
+{
+    width: 120px;
+}
+
+.sidebar a:link
+{
+    color: #FFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sidebar p{
+    color: #000000;
+}
+
+.sidebar p:hover{
+    transform: scale(1.2);
+    color: #111111;
+}
+
+.main-content
+{
+    
+}
+
+.bio-container {
+   
+}
+
+.bio-content{
+    color: #000;
+    margin-left: 30px;
+}
+
+.bio-content img{
+    transition: .5s;
+    height: 30px;
+    width: 30px;
+}
+
+.bio-content img:hover{
+    transform: scale(1.5);
+}
+
+.projects img{
+    width: 400px;
+    border-radius: 20px;
+}
